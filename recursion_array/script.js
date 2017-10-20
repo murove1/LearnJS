@@ -4,7 +4,6 @@ let i = 0;
 function recArr(arr) {
     console.log(arr[i]);
     i++;
-    console.log(i);
     if (i < arr.length) {
         recArr(arr);
     }
